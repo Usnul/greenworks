@@ -1,7 +1,8 @@
 {
   'variables': {
     'steamworks_sdk_dir': '<!(node tools/steamworks_sdk_dir.js)',
-    'target_dir': 'lib'
+    'target_dir': 'lib',
+    'openssl_fips':'X'
   },
 
   'conditions': [
